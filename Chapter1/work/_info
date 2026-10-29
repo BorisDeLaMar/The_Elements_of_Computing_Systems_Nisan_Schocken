@@ -1,0 +1,558 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/17.0/modelsim_ase/win32aloem
+Emux
+w1792562757
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z2 dD:/Shumeyko/Projects/repos/TEoCS
+Z3 8D:/Shumeyko/Projects/repos/TEoCS/mux.vhd
+Z4 FD:/Shumeyko/Projects/repos/TEoCS/mux.vhd
+l0
+L3
+VAX[lgfPLBz1hTJLTRHTPV2
+!s100 c:THMD0[7J^UHf@WhMjO=3
+Z5 OV;C;10.5b;63
+32
+!s110 1792562761
+!i10b 1
+!s108 1792562761.000000
+Z6 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Shumeyko/Projects/repos/TEoCS/mux.vhd|
+Z7 !s107 D:/Shumeyko/Projects/repos/TEoCS/mux.vhd|
+!i113 1
+Z8 o-work work -2002 -explicit
+Z9 tExplicit 1 CvgOpt 0
+Emy_and
+Z10 w1792497663
+R0
+R1
+R2
+Z11 8D:/Shumeyko/Projects/repos/TEoCS/and.vhd
+Z12 FD:/Shumeyko/Projects/repos/TEoCS/and.vhd
+l0
+L3
+VLH^EBm878E5QQLN57Zab62
+!s100 Rg0;FP5HTDJ_N0ag@EZGG1
+R5
+32
+Z13 !s110 1792561427
+!i10b 1
+Z14 !s108 1792561427.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Shumeyko/Projects/repos/TEoCS/and.vhd|
+Z16 !s107 D:/Shumeyko/Projects/repos/TEoCS/and.vhd|
+!i113 1
+R8
+R9
+Asynth
+Z17 DEx4 work 6 my_not 0 22 :kQD0<jWBiO9ijeKk]=9O2
+Z18 DEx4 work 7 my_nand 0 22 nJ1?Ho:1cBzn84Z:QoCdK1
+R0
+R1
+Z19 DEx4 work 6 my_and 0 22 LH^EBm878E5QQLN57Zab62
+l9
+L7
+V@`lfmlBZYd7MUZdYohX1N3
+!s100 b7I:Y]BBAC;8EF?3A45Kz2
+R5
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R8
+R9
+Emy_demux
+Z20 w1792567894
+R0
+R1
+R2
+Z21 8D:/Shumeyko/Projects/repos/TEoCS/demux.vhd
+Z22 FD:/Shumeyko/Projects/repos/TEoCS/demux.vhd
+l0
+L3
+V8P:S?DJbgIi<8aEQ?9Zm?0
+!s100 z0_KZaCDcCZ>AiYXF7<Jd3
+R5
+32
+Z23 !s110 1792651082
+!i10b 1
+Z24 !s108 1792651082.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Shumeyko/Projects/repos/TEoCS/demux.vhd|
+Z26 !s107 D:/Shumeyko/Projects/repos/TEoCS/demux.vhd|
+!i113 1
+R8
+R9
+Asynth
+R19
+R17
+R0
+R1
+Z27 DEx4 work 8 my_demux 0 22 8P:S?DJbgIi<8aEQ?9Zm?0
+l9
+L7
+V1kcS=To_>oN@[JYaE;0RW0
+!s100 <EBi4bRShRFZfC<QfBA762
+R5
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R8
+R9
+Emy_mux
+Z28 w1792565737
+R0
+R1
+R2
+R3
+R4
+l0
+L3
+VaLR1[J0H__>bNHlSC^62?2
+!s100 PmFPj5lC4OD:g@jiS@nlS3
+R5
+32
+Z29 !s110 1792651078
+!i10b 1
+Z30 !s108 1792651078.000000
+R6
+R7
+!i113 1
+R8
+R9
+Asynth
+Z31 DEx4 work 5 my_or 0 22 @UeR;1j3;U@zPj4h0B_`R1
+R19
+R17
+R0
+R1
+Z32 DEx4 work 6 my_mux 0 22 aLR1[J0H__>bNHlSC^62?2
+l11
+L7
+V5PSi:lA_VQTZc2AjLa9z93
+!s100 leFK7f_740ZNec=m^0Fn31
+R5
+32
+R29
+!i10b 1
+R30
+R6
+R7
+!i113 1
+R8
+R9
+Emy_nand
+Z33 w1792495307
+R0
+R1
+R2
+Z34 8D:/Shumeyko/Projects/repos/TEoCS/nand.vhd
+Z35 FD:/Shumeyko/Projects/repos/TEoCS/nand.vhd
+l0
+L3
+VnJ1?Ho:1cBzn84Z:QoCdK1
+!s100 nSXaS]k_;gi3YoVAodSl^2
+R5
+32
+Z36 !s110 1792496587
+!i10b 1
+Z37 !s108 1792496587.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Shumeyko/Projects/repos/TEoCS/nand.vhd|
+Z39 !s107 D:/Shumeyko/Projects/repos/TEoCS/nand.vhd|
+!i113 1
+R8
+R9
+Asynth
+R0
+R1
+R18
+l9
+L8
+VFWM44<_7nDnlKSmChQ1NF3
+!s100 O?a^;6KK<[GRA17J7:Q;a2
+R5
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R8
+R9
+Emy_not
+Z40 w1792496225
+R0
+R1
+R2
+Z41 8D:/Shumeyko/Projects/repos/TEoCS/not.vhd
+Z42 FD:/Shumeyko/Projects/repos/TEoCS/not.vhd
+l0
+L3
+V:kQD0<jWBiO9ijeKk]=9O2
+!s100 K9ZMdSF[lAOCVZ@3hRK171
+R5
+32
+Z43 !s110 1792496465
+!i10b 1
+Z44 !s108 1792496465.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Shumeyko/Projects/repos/TEoCS/not.vhd|
+Z46 !s107 D:/Shumeyko/Projects/repos/TEoCS/not.vhd|
+!i113 1
+R8
+R9
+Asynth
+R18
+R0
+R1
+R17
+l8
+L7
+V:NMVg[hXF]2`2CR<GiYXh1
+!s100 hjWTL[>G8jh4P4UTfPB]_0
+R5
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R8
+R9
+Emy_or
+Z47 w1792500814
+R0
+R1
+R2
+Z48 8D:/Shumeyko/Projects/repos/TEoCS/or.vhd
+Z49 FD:/Shumeyko/Projects/repos/TEoCS/or.vhd
+l0
+L3
+V@UeR;1j3;U@zPj4h0B_`R1
+!s100 e`_ZEjFaZli@DF<?]B:i41
+R5
+32
+Z50 !s110 1792561417
+!i10b 1
+Z51 !s108 1792561417.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Shumeyko/Projects/repos/TEoCS/or.vhd|
+Z53 !s107 D:/Shumeyko/Projects/repos/TEoCS/or.vhd|
+!i113 1
+R8
+R9
+Asynth
+R18
+R17
+R0
+R1
+R31
+l10
+L7
+V29ZEV3bhzR5SG]K9UBFV_3
+!s100 h_`nk66K=8Sa5N9eo>WBC2
+R5
+32
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R8
+R9
+Emy_xor
+Z54 w1792503949
+R0
+R1
+R2
+Z55 8D:/Shumeyko/Projects/repos/TEoCS/xor.vhd
+Z56 FD:/Shumeyko/Projects/repos/TEoCS/xor.vhd
+l0
+L3
+VYiZlH3zCWFN0H^P>XT?VR2
+!s100 =^>9=aN:T]?JI57;bJ^@?1
+R5
+32
+Z57 !s110 1792562999
+!i10b 1
+Z58 !s108 1792562999.000000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Shumeyko/Projects/repos/TEoCS/xor.vhd|
+Z60 !s107 D:/Shumeyko/Projects/repos/TEoCS/xor.vhd|
+!i113 1
+R8
+R9
+Asynth
+R19
+R18
+R31
+R0
+R1
+DEx4 work 6 my_xor 0 22 YiZlH3zCWFN0H^P>XT?VR2
+l10
+L7
+VL1=?=ccAXdJ`YQ14Un[Ml2
+!s100 1^e`blNJljD8WTO@_U]h@2
+R5
+32
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 1
+R8
+R9
+Etestbench
+Z61 w1792568042
+R0
+R1
+R2
+Z62 8D:/Shumeyko/Projects/repos/TEoCS/Chapter1.vhd
+Z63 FD:/Shumeyko/Projects/repos/TEoCS/Chapter1.vhd
+l0
+L3
+VH`Neegc<nM4U83@ng[Ed03
+!s100 8zTgA`_I=lXF88OSZEek31
+R5
+32
+Z64 !s110 1792568043
+!i10b 1
+Z65 !s108 1792568043.000000
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Shumeyko/Projects/repos/TEoCS/Chapter1.vhd|
+Z67 !s107 D:/Shumeyko/Projects/repos/TEoCS/Chapter1.vhd|
+!i113 1
+R8
+R9
+Asim
+R32
+R27
+R0
+R1
+DEx4 work 9 testbench 0 22 H`Neegc<nM4U83@ng[Ed03
+l16
+L6
+VdZPLfE3WK]VgSbBWXa5Q82
+!s100 ^B@R5CALBFn`NdzA2oG1l1
+R5
+32
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 1
+R8
+R9
+Exvi_bit_and
+Z68 w1792651550
+R0
+R1
+R2
+Z69 8D:/Shumeyko/Projects/repos/TEoCS/16bit_and.vhd
+Z70 FD:/Shumeyko/Projects/repos/TEoCS/16bit_and.vhd
+l0
+L3
+VoaiT_kSz[O1Bn6H:7B?TN2
+!s100 6iXB3jTZdO>:hHcM_?bHc0
+R5
+32
+Z71 !s110 1792656817
+!i10b 1
+Z72 !s108 1792656817.000000
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Shumeyko/Projects/repos/TEoCS/16bit_and.vhd|
+Z74 !s107 D:/Shumeyko/Projects/repos/TEoCS/16bit_and.vhd|
+!i113 1
+R8
+R9
+Abehavioral
+R19
+R0
+R1
+DEx4 work 11 xvi_bit_and 0 22 oaiT_kSz[O1Bn6H:7B?TN2
+l8
+L7
+VLgV^zQ;i7;_Q=l5aFzggl3
+!s100 XjoULSz]DFV;GaM0oU;C21
+R5
+32
+R71
+!i10b 1
+R72
+R73
+R74
+!i113 1
+R8
+R9
+Exvi_bit_demux
+Z75 w1792665065
+R0
+R1
+R2
+Z76 8D:/Shumeyko/Projects/repos/TEoCS/16bit_demux.vhd
+Z77 FD:/Shumeyko/Projects/repos/TEoCS/16bit_demux.vhd
+l0
+L3
+VLa8e]KaDeF3<`1OWdoXbK3
+!s100 jh_igL4FJc17`?PERW58K2
+R5
+32
+Z78 !s110 1792665067
+!i10b 1
+Z79 !s108 1792665067.000000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Shumeyko/Projects/repos/TEoCS/16bit_demux.vhd|
+Z81 !s107 D:/Shumeyko/Projects/repos/TEoCS/16bit_demux.vhd|
+!i113 1
+R8
+R9
+Abehavioral
+R27
+R0
+R1
+Z82 DEx4 work 13 xvi_bit_demux 0 22 La8e]KaDeF3<`1OWdoXbK3
+l9
+L7
+V80FlIJJ[izB0H3@8XI`Vn1
+!s100 YZePU2R?j=hm1fEo6fC1C0
+R5
+32
+R78
+!i10b 1
+R79
+R80
+R81
+!i113 1
+R8
+R9
+Exvi_bit_mux
+Z83 w1792656407
+R0
+R1
+R2
+Z84 8D:/Shumeyko/Projects/repos/TEoCS/16bit_mux.vhd
+Z85 FD:/Shumeyko/Projects/repos/TEoCS/16bit_mux.vhd
+l0
+L3
+V`6_l[>oc<D0J^Ca2bP:2m3
+!s100 A5fQz8h>n6nJ_e:0a7b?L2
+R5
+32
+Z86 !s110 1792656409
+!i10b 1
+Z87 !s108 1792656409.000000
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Shumeyko/Projects/repos/TEoCS/16bit_mux.vhd|
+Z89 !s107 D:/Shumeyko/Projects/repos/TEoCS/16bit_mux.vhd|
+!i113 1
+R8
+R9
+Abehavioral
+R32
+R0
+R1
+DEx4 work 11 xvi_bit_mux 0 22 `6_l[>oc<D0J^Ca2bP:2m3
+l8
+L7
+VT8aR;kKObLZjM92V=R;g`3
+!s100 niaFY4NY;T<_l^hda86`G2
+R5
+32
+R86
+!i10b 1
+R87
+R88
+R89
+!i113 1
+R8
+R9
+Exvi_bit_not
+Z90 w1792651578
+R0
+R1
+R2
+Z91 8D:/Shumeyko/Projects/repos/TEoCS/16bit_not.vhd
+Z92 FD:/Shumeyko/Projects/repos/TEoCS/16bit_not.vhd
+l0
+L3
+VJ8;T?YV6_lVPf0Iil9V^H0
+!s100 d7W[X2^82FUHVd2;fa8S62
+R5
+32
+Z93 !s110 1792651580
+!i10b 1
+Z94 !s108 1792651580.000000
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Shumeyko/Projects/repos/TEoCS/16bit_not.vhd|
+Z96 !s107 D:/Shumeyko/Projects/repos/TEoCS/16bit_not.vhd|
+!i113 1
+R8
+R9
+Abehavioral
+R17
+R0
+R1
+DEx4 work 11 xvi_bit_not 0 22 J8;T?YV6_lVPf0Iil9V^H0
+l8
+L7
+Vk;zBOQ^@Z=_?lIz5Yd7Wj2
+!s100 CdQWoDZ3YIG:5kdD^BAV@1
+R5
+32
+R93
+!i10b 1
+R94
+R95
+R96
+!i113 1
+R8
+R9
+Exvi_bit_or
+Z97 w1792654782
+R0
+R1
+R2
+Z98 8D:/Shumeyko/Projects/repos/TEoCS/16bit_or.vhd
+Z99 FD:/Shumeyko/Projects/repos/TEoCS/16bit_or.vhd
+l0
+L3
+V<MzWf@gC`QObd02U[5]T42
+!s100 MDz2TXNY^T?DY]A0fH<EA1
+R5
+32
+Z100 !s110 1792656814
+!i10b 1
+Z101 !s108 1792656814.000000
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Shumeyko/Projects/repos/TEoCS/16bit_or.vhd|
+Z103 !s107 D:/Shumeyko/Projects/repos/TEoCS/16bit_or.vhd|
+!i113 1
+R8
+R9
+Abehavioral
+R31
+R0
+R1
+DEx4 work 10 xvi_bit_or 0 22 <MzWf@gC`QObd02U[5]T42
+l8
+L7
+VN;aM5zWN:d3F7MIG6_9SY3
+!s100 8:=T8OWEW8cA199VWj<lO2
+R5
+32
+R100
+!i10b 1
+R101
+R102
+R103
+!i113 1
+R8
+R9

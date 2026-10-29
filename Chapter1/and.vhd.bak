@@ -1,0 +1,15 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity my_and is
+	port(a, b: in STD_LOGIC; my_out: out STD_LOGIC);
+end;
+
+architecture synth of my_and is
+	signal nand_result: STD_LOGIC
+begin
+	nand_inst: entity work.my_nand
+		port map(a => a, b => b, my_out => nand_result); 
+
+	not_inst: entity work.my_not
+		port map(a => nand_result, my_out => my_out);
+end;

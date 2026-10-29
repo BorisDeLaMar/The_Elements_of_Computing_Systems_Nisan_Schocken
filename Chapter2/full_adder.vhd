@@ -1,0 +1,14 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity full_adder is
+	port(a, b, c: in STD_LOGIC; sum, carry: out STD_LOGIC);
+end;
+
+architecture behavioral of full_adder is
+	signal ab_sum, carry_mid, junky_sum, carry_last: STD_LOGIC;
+begin
+	half1_adder_inst: entity work.half_adder port map(a => a, b => b, sum => ab_sum, carry => carry_mid);
+	half2_adder_inst: entity work.half_adder port map(a => ab_sum, b => c, sum => sum, carry => carry_last);
+	
+	carry <= carry_mid or carry_last;
+end;

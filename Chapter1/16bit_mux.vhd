@@ -1,0 +1,13 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity xvi_bit_mux is
+	port(a, b: in STD_LOGIC_VECTOR(15 downto 0); sel: in STD_LOGIC; my_out: out STD_LOGIC_VECTOR(15 downto 0));
+end;
+
+architecture behavioral of xvi_bit_mux is
+begin
+	gen_mux: for i in 0 to 15 generate
+	begin
+		mux_inst: entity work.my_mux port map(a => a(i), b => b(i), sel => sel, my_out => my_out(i)); 
+	end generate gen_mux;
+end;

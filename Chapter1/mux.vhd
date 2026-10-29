@@ -1,0 +1,23 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity my_mux is
+	port(a, b, sel: in STD_LOGIC; my_out: out STD_LOGIC);
+end;
+
+architecture synth of my_mux is
+	signal not_out: STD_LOGIC;
+	signal and1_out: STD_LOGIC;
+	signal and2_out: STD_LOGIC;
+begin
+	not_inst: entity work.my_not
+		port map(a => sel, my_out => not_out);
+	
+	and1_inst: entity work.my_and
+		port map(a => a, b => not_out, my_out => and1_out);
+
+	and2_inst: entity work.my_and
+		port map(a => b, b => sel, my_out => and2_out);
+
+	or_inst: entity work.my_or
+		port map(a => and1_out, b => and2_out, my_out => my_out);
+end;

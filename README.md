@@ -1,1 +1,3 @@
 # The_Elements_of_Computing_Systems_Nisan_Schocken
+
+Completing each chapter's exercises

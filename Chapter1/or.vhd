@@ -1,0 +1,18 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity my_or is
+	port(a, b: in STD_LOGIC; my_out: out STD_LOGIC);
+end;
+
+architecture synth of my_or is
+	signal neg_a: STD_LOGIC;
+	signal neg_b: STD_LOGIC;
+begin
+	not_inst_a: entity work.my_not
+		port map(a => a, my_out => neg_a);
+	not_inst_b: entity work.my_not
+		port map(a => b, my_out => neg_b); 
+
+	nand_inst: entity work.my_nand
+		port map(a => neg_a, b => neg_b, my_out => my_out);
+end;

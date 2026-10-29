@@ -1,0 +1,36 @@
+D:/Shumeyko/Projects/repos/TEoCS/Chapter2/test_alu.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Shumeyko/Projects/repos/TEoCS/Chapter2/test_alu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testbench_alu
+-- Compiling architecture sim of testbench_alu
+-- Loading entity alu
+
+} {} {}} D:/Shumeyko/Projects/repos/TEoCS/Chapter2/half_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:\Shumeyko\Projects\repos\TEoCS\Chapter2\half_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity half_adder
+-- Compiling architecture synth of half_adder
+
+} {} {}} D:/Shumeyko/Projects/repos/TEoCS/Chapter2/inc.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Shumeyko/Projects/repos/TEoCS/Chapter2/inc.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity inc
+-- Compiling architecture behavioral of inc
+-- Loading entity half_adder
+
+} {} {}} D:/Shumeyko/Projects/repos/TEoCS/Chapter2/test_modules.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Shumeyko/Projects/repos/TEoCS/Chapter2/test_modules.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testbench
+-- Compiling architecture sim of testbench
+-- Loading entity full_adder
+
+} {} {}}

@@ -1,0 +1,34 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity testbench_alu is
+end;
+
+architecture sim of testbench_alu is
+	signal zx: STD_LOGIC := '0';
+	signal nx: STD_LOGIC := '0';
+	
+	signal zy: STD_LOGIC := '0';
+	signal ny: STD_LOGIC := '0';
+
+	signal f: STD_LOGIC := '0';
+	signal no: STD_LOGIC := '0';
+
+	signal x : STD_LOGIC_VECTOR(15 downto 0) := (others => '0');
+	signal y : STD_LOGIC_VECTOR(15 downto 0); --:= (others => '0');
+	signal my_out: STD_LOGIC_VECTOR(15 downto 0);
+
+	signal zr, ng: STD_LOGIC;
+begin
+	alu_process: process
+	begin
+		wait for 5 ns;
+
+		zx <= '1'; zy <= '1'; f <= '1';
+		wait for 5 ns;
+
+		nx <= '1'; ny <= '1'; no <= '1';
+		wait for 5 ns;
+	end process;
+
+	alu_inst: entity work.alu port map(x => x, y => y, zx => zx, nx => nx, zy => zy, ny => ny, f => f, no => no, my_out => my_out, zr => zr, ng => ng);
+end;

@@ -1,0 +1,17 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+entity xvi_bit_demux is
+	port(input, sel0, sel1: in STD_LOGIC; a, b, c, d: out STD_LOGIC_VECTOR(15 downto 0));
+end;
+
+architecture behavioral of xvi_bit_demux is
+	signal demux1_out: STD_LOGIC_VECTOR(1 downto 0);
+begin
+	gen_demux: for i in 0 to 15 generate
+	begin
+		demux1_inst: entity work.my_demux port map(input => input, sel => sel1, a => demux1_out(0), b => demux1_out(1));
+
+		demux2_inst: entity work.my_demux port map(input => demux1_out(0), sel => sel0, a => a(i), b => b(i));
+		demux3_inst: entity work.my_demux port map(input => demux1_out(1), sel => sel0, a => c(i), b => d(i));
+	end generate gen_demux;
+end;
